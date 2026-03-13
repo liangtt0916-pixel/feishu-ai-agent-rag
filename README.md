@@ -160,7 +160,7 @@ feishu-ai-agent-rag
 
 克隆项目：
 
-git clone https://github.com/你的用户名/feishu-ai-agent-rag.git
+git clone https://github.com/liangtt0916-pixel/feishu-ai-agent-rag.git
 cd feishu-ai-agent-rag
 
 创建虚拟环境：
