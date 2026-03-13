@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>AI工具采购助手</title>
+</head>
+<body>
+
+<h2>AI采购助手 Demo</h2>
+
+<input id="q" style="width:400px" placeholder="请输入问题">
+<button onclick="send()">发送</button>
+
+<pre id="result"></pre>
+
+<script>
+async function send(){
+
+let q=document.getElementById("q").value;
+
+let res=await fetch("http://127.0.0.1:8000/chat",{
+method:"POST",
+headers:{
+"Content-Type":"application/json"
+},
+body:JSON.stringify({question:q})
+});
+
+let data=await res.json();
+
+document.getElementById("result").innerText=data.answer;
+
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+model,category,brand,price_range,features,scenes,manual_file
+Fluke 17B+,万用表,Fluke,500-800,基础测量|稳定耐用|自动量程,电工检测|日常维修,fluke_17b_plus_manual.txt
+Fluke 18B+,万用表,Fluke,800-1200,更高精度|更多档位|工业适用,工业巡检|设备维护,fluke_18b_plus_manual.txt
+UNI-T UT61E+,万用表,UNI-T,300-500,高性价比|高分辨率,实验室|电子维修,ut61e_plus_manual.txt
+Bosch GSB 600,电钻,Bosch,300-500,冲击功能|家装常用,安装施工|维修作业,bosch_gsb600_manual.txt
+Makita HP1630,电钻,Makita,500-700,动力稳定|适合连续作业,工地施工|设备安装,makita_hp1630_manual.txt
